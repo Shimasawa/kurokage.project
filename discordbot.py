@@ -17,7 +17,7 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('おはよう')
 #展開
-
+@bot.event
 async def expand(message):
     url_discord_message = (
         'https://discordapp.com/channels/'
