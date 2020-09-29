@@ -2,8 +2,10 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='/')
-      activity=discord.Game("βテスト")
+bot = commands.Bot(
+      command_prefix = "/",
+      activity = discord.Game("βテスト")
+                  )
 token = os.environ.get('DISCODE_BOT_TOKEN')
 
 
