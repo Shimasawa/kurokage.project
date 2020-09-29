@@ -3,6 +3,7 @@ import os
 import traceback
 
 bot = commands.Bot(command_prefix='/')
+      activity=discord.Game("βテスト")
 token = os.environ.get('DISCODE_BOT_TOKEN')
 
 
